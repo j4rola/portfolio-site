@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Froula</title>
+    
+    <!-- main bootstrap link --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- bootstrap icons --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+    <!-- css stylesheet --> 
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" style="background-color: steelblue;"> 
+        <div class='container'>
+            <a class='navbar-brand'href="#">Joe Froula</a> 
+
+            <button class='navbar-toggler' 
+            type='button' 
+            data-bs-toggle='collapse' 
+            data-bs-target='#navmenu'
+            ><span class='navbar-toggler-icon'></span></button>
+
+            <div class='collapse navbar-collapse' 
+                id='navmenu'>
+                <ul class='navbar-nav ms-auto'>
+                    <li class='nav-item'>
+                        <a class='nav-link' href="#projects">Projects</a>
+                    </li>
+          
+          
+                    <li class='nav-item'>
+                        <a class='nav-link' href="#aboutme">About Me</a>
+                    </li>
+          
+          
+                    <li class='nav-item'>
+                        <a class='nav-link' href="#skills">Skills</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class='bg-light text-light p-5 text-center text-sm-start my-5'>
+        <div class='container'>
+            <div class='d-sm-flex align-items-center justify-content-between my-3'>
+                <div> 
+                    <h1 style="color: dimgray">Hi, I'm Joe.</h1>
+                    <p class='lead my-4 m' style="color: gray;">
+                     I am a full stack software engineer with an interest in medecine. My goal is to create applications that assist medical professionals with their diagnostic and organizational duties.
+                    </p><br>
+                    <p style="color: dimgray; font-weight: 600;">jmfroula@gmail.com</p>
+                    <p style="color: dimgray; font-weight: 600;">203-707-4230</p>
+                    
+                </div>
+                <img id='img2' class='image-fluid w-35 d-none d-sm-block p-5' src="img/Asset 8.svg" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-light p5"></div>
+
+    <section id='projects' class=' py-5' style="background-color: steelblue;">
+        <div class="container p-5">
+            <h1 class="text-center" style="color: white;">My Projects</h1>
+            <div class="row text-center g-5 p-5">
+
+                <div class="col-md">
+                    <div class='card bg-$gray-200'>
+                        <div class='card-body text-center'>
+                            <div class="h1 mb-3">
+                                <i class="bi bi-cloud"></i>
+                            </div>
+                            <h3 class="card-title">Weather App</h3>
+                            <p class="card-text">This web app uses an API called Weatherstack from API Layer. Just type in a city to search for weather conditions anywhere around the world.</p>
+                            <a class='btn btn-primary' href="weather_app/index.html">Check it Out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class='card bg-$gray-200 text-dark'>
+                        <div class='card-body text-center'>
+                            <div class="h1 mb-3">
+                                <i class="bi bi-cart-check"></i>
+                            </div>
+                            <h3 class="card-title">React SPA</h3>
+                            <p class="card-text">This Single Page e-commerce Application only hits the server once, and then uses React Router to switch between the simultaneously loaded pages of the app. This makes the UI lightning fast for optimum user experience.</p>
+                            <a class='btn btn-primary' href="#">Coming Soon!</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id='skills' class="p-5">
+        <div style="color: dimgray;" class="container text-center">
+            <h1 class="my-5 ">Skills</h1> 
+            <div class="row text-center">
+                <div class="col-md">
+                    <h3 class="my-3">Languages</h3>
+                    <p>JavaScript</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    
+                    
+                </div>
+                
+                <div style="color: dimgray;" class="col-md">
+                    <h3 class="my-3" >Frameworks</h3>
+                    <p>React.js</p>
+                    <p>Mocha.js</p>
+                    <p>Bootstrap</p>
+                </div>
+
+                <div style="color: dimgray;" class="col-md">
+                    <h3 class="my-3">Paradigms</h3>
+                    <p>Object Oriented Programming</p>
+                    <p>Functional Programming</p>
+                    <p>Test Driven Development</p>
+                </div>
+                
+                
+
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section id='aboutme' class="py-5" style="background-color: steelblue;">
+        <div class="container text-center text-light pt-5">
+            <h1 class='pb-5'>About Me</h1>
+            <div class="card">
+                <div class="card-body bg-light text-dark p-5">
+                <img id='img' src="img/IMG_1071.jpg" alt="" class="rounded-circle image-fluid w-35 py-4">
+                <p class="lead">
+                    Hi, my Name is Josef Froula. My background is in Procurement Operations in the insurance industry. My experience in procurement 
+                    has taught me valuable lessons in contracts analysis and negotiation, systems integration, and much more. 
+                    I became interested in software engineering through a desire to understand what was behind the technology 
+                    that is used in housing contracts, obtaining digital signatures, and managing supply chains. I have grown to 
+                    love software because it blends logical and quantitative progressions with an artful creativity, allowing 
+                    me to use my whole skillset to solve problems.
+                </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="position-relative p-5 text-center">
+        
+        <div class="w-75">
+            
+            <div class="row pr-4">
+
+
+                <div class="col">
+                    <a style='color: steelblue;' href="https://twitter.com/j4rola" target="blank"><i class="devicon-twitter-original h3"></i></a>
+                </div>
+
+                <div class="col">
+                    <a style='color: steelblue;' href="https://github.com/j4rola" target="blank"><i class="devicon-github-original h2"></i></a>
+                </div>
+
+                <div class="col">
+                    <a style='color: steelblue;' href="https://www.linkedin.com/in/josef-froula-b85310116/" target="blank"><i class="devicon-linkedin-plain h2"></i></a>
+                </div>
+                
+            
+            </div>
+        </div>
+       
+        <a href="#" class="position-absolute bottom-0 end-0 p-5"><i style="color: steelblue;" class="bi bi-arrow-up-circle h1"></i></a>
+        
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
