@@ -1,0 +1,22 @@
+body::before {
+    display: block;
+    content: ''; 
+    height: 60px;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+#img {
+    height: 200px;
+}
+
+#img2 {
+    height: 350px;
+}
+
+a {
+    text-decoration: none;
+}
